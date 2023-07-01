@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Ysabeau Infant", sans-serif;
+}
+.box {
+  position: absolute;
+  left: -108%;
+  z-index: 1;
+  top: 18%;
+}

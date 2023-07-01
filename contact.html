@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/shareitlater.png"
+      type="image/x-icon"
+    />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contactStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&family=Ubuntu:wght@300;500;700&family=Ysabeau+Infant:ital,wght@0,100;0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="h-screen flex">
+      <section
+        class="flex basis-[80%] bg-[#222831] px-32 py-10 flex-col pr-[24rem]"
+      >
+        <h1 class="text-[#DDDDDD] text-6xl font-bold mb-6">Contact Us</h1>
+        <p class="text-[#DDDDDD] text-2xl">
+          Feel free to contact us any time. We will get back to you as soon as
+          we can!
+        </p>
+
+        <form class="mt-4">
+          <div class="flex flex-col my-6">
+            <label for="" class="text-[#DDDDDD] text-2xl font-bold">Name</label>
+            <input
+              type="text"
+              name=""
+              placeholder="Your Name"
+              id=""
+              class="py-3 bg-[#222831] border-b text-[#DDDDDD] font-semibold px-2"
+            />
+          </div>
+
+          <div class="flex flex-col my-6">
+            <label for="" class="text-[#DDDDDD] text-2xl font-bold"
+              >Email</label
+            >
+            <input
+              type="text"
+              name=""
+              placeholder="Your Email"
+              id=""
+              class="py-3 bg-[#222831] border-b text-[#DDDDDD] font-semibold px-2"
+            />
+          </div>
+
+          <div class="flex flex-col my-6">
+            <label for="" class="text-[#DDDDDD] text-2xl font-bold"
+              >Message</label
+            >
+            <input
+              type="text"
+              name=""
+              placeholder="What you want us to know about?"
+              id=""
+              class="py-3 bg-[#222831] border-b text-[#DDDDDD] font-semibold px-2"
+            />
+          </div>
+
+          <button
+            class="text-[#222831] duration-500 hover:bg-[#f05454] hover:text-[#DDDDDD] bg-[#DDDDDD] text-center w-full font-bold text-lg py-4"
+          >
+            SEND
+          </button>
+        </form>
+      </section>
+
+      <section
+        class="relative flex basis-[20%] bg-[#DDDDDD] justify-center items-end pb-16"
+      >
+        <div class="box h-10 w-10 bg-[#DDDDDD]"></div>
+        <div
+          class="absolute right-0 top-[50%] w-[200%] bg-green-600 pl-12 p-8 py-[3rem] flex flex-col gap-8 -translate-y-1/2 text-[#DDDDDD]"
+        >
+          <h2 class="text-3xl font-bold mb-4">Info</h2>
+
+          <div class="flex gap-5 text-xl items-center">
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+            <p class="font-medium text-[#DDDDDD]">Info@getintouch.we</p>
+          </div>
+
+          <div class="flex gap-5 text-xl items-center">
+            <i class="fa-solid fa-phone"></i>
+            <p class="font-medium text-[#DDDDDD]">+91 98765 4321</p>
+          </div>
+
+          <div class="flex gap-5 text-xl items-center">
+            <i class="fa-solid fa-location-pin"></i>
+            <p class="font-medium text-[#DDDDDD]">13 Coimbatore TN</p>
+          </div>
+
+          <div class="flex gap-5 text-xl items-center">
+            <i class="fa-solid fa-clock"></i>
+            <p class="font-medium text-[#DDDDDD]">09:00 - 18:00</p>
+          </div>
+        </div>
+
+        <!-- Brands -->
+        <div class="flex gap-7">
+          <i
+            class="fa-brands fa-facebook text-xl hover:text-[#f05454] duration-200"
+          ></i>
+
+          <i
+            class="fa-brands fa-instagram text-xl hover:text-[#f05454] duration-200"
+          ></i>
+
+          <i
+            class="fa-brands fa-twitter text-xl hover:text-[#f05454] duration-200"
+          ></i>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

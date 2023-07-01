@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/shareitlater.png"
+      type="image/x-icon"
+    />
+    <title>Share It Later</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&family=Ubuntu:wght@300;500;700&family=Ysabeau+Infant:ital,wght@0,100;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="h-screen bg-[#DDDDDD] text-[#222831]">
+      <section class="flex p-8 justify-between items-center">
+        <div class="logo">
+          <img src="images/shareitlater.png" class="w-14" alt="" srcset="" />
+        </div>
+
+        <section>
+          <ol class="flex gap-8 text-xl font-bold">
+            <li><a href="#about">About</a></li>
+            <li><a href="#technologiesSec">Our Technology</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#saftey">Saftey</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ol>
+        </section>
+
+        <div class="flex gap-4">
+          <a href=""
+            ><i
+              class="fa-brands fa-facebook text-lg hover:text-[#f05454] duration-200"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-instagram text-lg hover:text-[#f05454] duration-200"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-twitter text-lg hover:text-[#f05454] duration-200"
+            ></i
+          ></a>
+        </div>
+      </section>
+
+      <section class="relative w-full h-full">
+        <img
+          src="images/pngwing.com.png"
+          alt=""
+          srcset=""
+          class="absolute h-[500px] animate__animated animate__fadeInRight z-[2]"
+          id="imgComputer"
+        />
+
+        <button
+          id="btnConnect"
+          class="p-3 bg-[#222831] text-white font-bold text-lg rounded-xl mb-4"
+        >
+          CONNECT WALLET
+        </button>
+
+        <h1
+          id="heading"
+          class="text-6xl font-bold z-[1] animate__animated animate__fadeInBottomLeft"
+        >
+          Share <span class="text-[#f05454]">It</span> Later
+        </h1>
+      </section>
+    </header>
+
+    <!-- About -->
+    <main class="bg-[#222831]">
+      <div
+        class="p-6 mt-14 z-50 text-[#DDDDDD] h-screen flex flex-col items-center justify-center"
+      >
+        <h2
+          id="about"
+          class="text-center font-bold text-6xl mb-5 hover:text-[#F05454] hover:drop-shadow-xl duration-500"
+          data-aos="fade-right"
+        >
+          About Us
+        </h2>
+
+        <p data-aos="fade-up" class="text-2xl font-medium text-center mb-8">
+          Welcome to our web demo! We are excited to show you the features and
+          capabilities of our product/service. Our product/service is designed
+          to provide [specific benefits or solutions] for our customers. With
+          our user-friendly interface and powerful tools, we are confident that
+          you will find our product/service to be an invaluable asset to your
+          business. During this demo, we will guide you through the various
+          features and functionalities of our product/service. You will have the
+          opportunity to see how it works, ask questions, and explore its
+          capabilities.
+        </p>
+
+        <div class="px-8 flex gap-5">
+          <div class="hover:scale-[1.1] duration-200">
+            <img
+              src="https://placeholder.co/250x250"
+              data-aos="fade-right"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="hover:scale-[1.1] duration-200">
+            <img
+              src="https://placeholder.co/250x250"
+              data-aos="fade-right"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="hover:scale-[1.1] duration-200">
+            <img
+              src="https://placeholder.co/250x250"
+              data-aos="fade-right"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Our Technologies -->
+    <section class="bg-[#DDDDDD]" id="technologies">
+      <div
+        id="technologiesSec"
+        class="pt-[30rem] pb-[27rem] px-6 mt-48 text-[#222831] h-[135vh] flex flex-col items-center justify-center"
+      >
+        <h2
+          class="text-center font-bold text-6xl mb-8 transition-all duration-500 hover:text-[#F05454] hover:drop-shadow-xl"
+          data-aos="fade-up-right"
+        >
+          Our Technologies
+        </h2>
+
+        <p
+          data-aos="fade-down-left"
+          class="text-2xl font-medium text-center mb-14"
+        >
+          Welcome to our web demo! We are excited to show you the features and
+          capabilities of our product/service. Our product/service is designed
+          to provide [specific benefits or solutions] for our customers. With
+          our user-friendly interface and powerful tools, we are confident that
+          you will find our product/service to be an invaluable asset to your
+          business. During this demo, we will guide you through the various
+          features and functionalities of our product/service. You will have the
+          opportunity to see how it works, ask questions, and explore its
+          capabilities.
+        </p>
+
+        <button
+          id="btnTechnologies"
+          class="bg-[#222831] text-white font-bold text-lg rounded-xl p-4"
+          data-aos="zoom-in-up"
+        >
+          Learn More
+          <i class="ml-4 fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-[#222831]">
+      <div
+        class="pt-[10.5rem] px-6 text-[#DDDDDD] h-[125vh] flex flex-col justify-start"
+      >
+        <h2
+          id="pricingSec"
+          class="text-center font-bold text-6xl mb-16 transition-all duration-500 hover:text-[#F05454] hover:drop-shadow-xl"
+          data-aos="fade-up-right"
+        >
+          Our Pricing
+        </h2>
+
+        <div class="flex gap-[20rem] ml-8 flex-wrap">
+          <!-- Cards -->
+          <div class="card" data-aos="flip-left">
+            <div class="card_side card_side_front bg-green-600 h-80 w-72">
+              <div class="imageCard">
+                <img src="https://placeholder.co/350x250" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="card_side card_side_back bg-green-600 h-80 w-72 p-8">
+              <div
+                class="flex flex-col h-full items-center justify-center gap-6"
+              >
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus, totam quas quidem corrupti error quo dolorum.
+                  Dolore eaque harum, nemo, enim tempora quos, sequi ratione
+                  expedita distinctio aliquid corrupti voluptas.em
+                </p>
+
+                <button
+                  class="p-4 font-bold text-lg text-green-600 bg-white rounded-xl"
+                >
+                  Buy for &dollar;299
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-aos="flip-left">
+            <div class="card_side card_side_front bg-green-600 h-80 w-72">
+              <div class="imageCard">
+                <img src="https://placeholder.co/350x250" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="card_side card_side_back bg-green-600 h-80 w-72 p-8">
+              <div
+                class="flex flex-col h-full items-center justify-center gap-6"
+              >
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus, totam quas quidem corrupti error quo dolorum.
+                  Dolore eaque harum, nemo, enim tempora quos, sequi ratione
+                  expedita distinctio aliquid corrupti voluptas.em
+                </p>
+
+                <button
+                  class="p-4 font-bold text-lg text-green-600 bg-white rounded-xl"
+                >
+                  Buy for &dollar;499
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-aos="flip-right">
+            <div class="card_side card_side_front bg-green-600 h-80 w-72">
+              <div class="imageCard">
+                <img src="https://placeholder.co/350x250" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="card_side card_side_back bg-green-600 h-80 w-72 p-8">
+              <div
+                class="flex flex-col h-full items-center justify-center gap-6"
+              >
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus, totam quas quidem corrupti error quo dolorum.
+                  Dolore eaque harum, nemo, enim tempora quos, sequi ratione
+                  expedita distinctio aliquid corrupti voluptas.em
+                </p>
+
+                <button
+                  class="p-4 font-bold text-lg text-green-600 bg-white rounded-xl"
+                >
+                  Buy for &dollar;699
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-aos="flip-right">
+            <div class="card_side card_side_front bg-green-600 h-80 w-72">
+              <div class="imageCard">
+                <img src="https://placeholder.co/350x250" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="card_side card_side_back bg-green-600 h-80 w-72 p-8">
+              <div
+                class="flex flex-col h-full items-center justify-center gap-6"
+              >
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus, totam quas quidem corrupti error quo dolorum.
+                  Dolore eaque harum, nemo, enim tempora quos, sequi ratione
+                  expedita distinctio aliquid corrupti voluptas.em
+                </p>
+
+                <button
+                  class="p-4 font-bold text-lg text-green-600 bg-white rounded-xl"
+                >
+                  Buy for &dollar;999
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Saftey Section -->
+    <section id="saftey" class="bg-[#DDDDDD]">
+      <div
+        class="pt-[30rem] pb-[27rem] px-6 mt-48 text-[#222831] h-[135vh] flex flex-col items-center justify-center"
+      >
+        <h2
+          id="safteySec"
+          class="text-center font-bold text-6xl mb-8 transition-all duration-500 hover:text-[#F05454] hover:drop-shadow-xl"
+          data-aos="fade-up-right"
+        >
+          Saftey of Us
+        </h2>
+
+        <p
+          data-aos="fade-down-left"
+          class="text-2xl font-medium text-center mb-14"
+        >
+          Welcome to our web demo! We are excited to show you the features and
+          capabilities of our product/service. Our product/service is designed
+          to provide [specific benefits or solutions] for our customers. With
+          our user-friendly interface and powerful tools, we are confident that
+          you will find our product/service to be an invaluable asset to your
+          business. During this demo, we will guide you through the various
+          features and functionalities of our product/service. You will have the
+          opportunity to see how it works, ask questions, and explore its
+          capabilities.
+        </p>
+
+        <button
+          id="btnTechnologies"
+          class="bg-[#222831] text-white font-bold text-lg rounded-xl p-4"
+          data-aos="zoom-in-up"
+        >
+          Learn More
+          <i class="ml-4 fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex pt-16 pb-6 px-7 text-[#DDDDDD] justify-around">
+      <!-- First Footer -->
+      <div class="flex flex-col justify-around">
+        <div class="text-center">
+          <h3 class="font-bold text-2xl">ShareItLater</h3>
+          <p>Your Sharing Companion</p>
+        </div>
+
+        <div class="flex gap-3">
+          <i
+            class="fa-brands fa-twitter text-lg hover:text-[#f05454] duration-200"
+          ></i>
+          <i
+            class="fa-brands fa-instagram text-lg hover:text-[#f05454] duration-200"
+          ></i>
+          <i
+            class="fa-brands fa-youtube text-lg hover:text-[#f05454] duration-200"
+          ></i>
+          <i
+            class="fa-brands fa-github text-lg hover:text-[#f05454] duration-200"
+          ></i>
+          <i
+            class="fa-brands fa-facebook text-lg hover:text-[#f05454] duration-200"
+          ></i>
+          <i
+            class="fa-brands fa-discord text-lg hover:text-[#f05454] duration-200"
+          ></i>
+        </div>
+      </div>
+
+      <!-- Second Footer -->
+      <div class="flex gap-4 border-x px-4">
+        <div class="flex flex-col text-center">
+          <h4 class="font-bold text-lg mb-3">Technologies</h4>
+          <a href="">The Trustchain Protocol</a>
+          <a href="">The Shareitlater MultiDAG</a>
+          <a href="">Watch Simulation</a>
+          <a href="">Github</a>
+          <a href="">MultiDAG Lightpaper</a>
+          <a href="">Trustchain Whitepaper</a>
+        </div>
+
+        <div class="flex flex-col text-center">
+          <h4 class="font-bold text-lg mb-3">Learn</h4>
+          <a href="">Videos</a>
+          <a href="">Blog</a>
+          <a href="">Help Center</a>
+        </div>
+
+        <div class="flex flex-col text-center">
+          <h4 class="font-bold text-lg mb-3">Ecosystem</h4>
+          <a href="">The Shareitlater Treasury</a>
+          <a href="">Shareitlater Pay VIPER Wallet</a>
+          <a href="">Debit Cards And Bank Accounts</a>
+          <a href="">Shareitlater Pay Business</a>
+          <a href="">Djed</a>
+          <a href="">ADA Pay</a>
+          <a href="">Crypto Volatility Index (CVI)</a>
+        </div>
+
+        <div class="flex flex-col text-center">
+          <h4 class="font-bold text-lg mb-3">Network</h4>
+          <a href="">The Shareitlater Coin</a>
+          <a href="">Explorer</a>
+          <a href="">Bridge</a>
+          <a href="">Team</a>
+          <a href="">Community</a>
+          <a href="">Careers</a>
+        </div>
+      </div>
+
+      <!-- Third Footer -->
+      <div class="flex text-center flex-col gap-3">
+        <h4 class="font-bold text-lg mb-3">Contact Us</h4>
+        <address class="text-start">
+          1/123 S S Sample Address <br />Coimbatore, Tamil Nadu <br />632201
+          <br />
+          <br />
+          98765 4321
+        </address>
+      </div>
+    </footer>
+
+    <hr />
+
+    <div class="text-center py-3">
+      <div class="flex gap-4 text-[#DDDDDD] text-center justify-center mb-3">
+        <a href="">Privacy Policy</a>
+        <a href="">Terms Of Services</a>
+        <a href="">AML</a>
+      </div>
+      <h6 class="text-[#DDDDDD] font-bold">
+        &copy; ShareItLater - By
+        <a href="https://github.com/iamsanthosh2203" target="_blank"
+          >Santhosh Kumar</a
+        >
+      </h6>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

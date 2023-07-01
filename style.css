@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+a {
+  transition: all 500ms;
+}
+
+a:hover {
+  color: #f05454;
+}
+
+#heading {
+  font-family: "Chakra Petch";
+  position: absolute;
+  rotate: -33deg;
+  left: 0%;
+  bottom: 44%;
+}
+
+#btnConnect {
+  font-family: "Chakra Petch";
+  position: absolute;
+  rotate: -33deg;
+  left: 0%;
+  bottom: 27%;
+}
+
+body {
+  background: #222831;
+  overflow-x: hidden;
+}
+
+header {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+li:hover {
+  color: #f05454;
+  transition-duration: 250ms;
+  border-bottom-width: 2px;
+  border-bottom-color: #f05454;
+}
+
+#imgComputer {
+  bottom: 0px;
+  left: 34%;
+  transform: translate(-50px, -50px);
+}
+
+#technologies {
+  clip-path: polygon(0 0, 100% 10%, 100% 88%, 0% 100%);
+}
+
+#btnTechnologies,
+.fa-arrow-right {
+  transition: all 250ms ease-in-out;
+}
+.card {
+  position: relative;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+}
+
+.card_side {
+  transition: all 500ms ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card_side_front {
+  color: yellow;
+}
+
+.card_side_back {
+  color: sienna;
+  transform: rotateY(180deg);
+}
+
+#btnTechnologies:hover {
+  color: #f05454;
+  scale: 1.2;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+}
+
+#btnTechnologies:hover .fa-arrow-right {
+  transform: translateX(1rem);
+}
+.card:hover .card_side_front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card_side_back {
+  transform: rotateY(0deg);
+}
+
+.imageCard {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+#saftey {
+  clip-path: polygon(0 0, 100% 17%, 100% 100%, 0% 100%);
+}
